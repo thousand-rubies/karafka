@@ -9,7 +9,7 @@ gemspec
 # Karafka gem does not require this but we add it here so we can test the integration with
 # ActiveJob much easier
 group :integrations do
-  gem 'activejob'
+  gem 'activejob', '>= 7.0.4.3'
 end
 
 group :test do
