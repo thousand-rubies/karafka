@@ -14,7 +14,7 @@ end
 
 group :test do
   gem 'byebug'
-  gem 'factory_bot'
+  gem 'factory_bot', '>= 6.3.0'
   gem 'rspec'
   gem 'simplecov'
 end
